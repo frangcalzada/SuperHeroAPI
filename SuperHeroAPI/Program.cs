@@ -1,5 +1,8 @@
 global using SuperHeroAPI.Models;
+global using Microsoft.EntityFrameworkCore;
+global using SuperHeroAPI.Data;
 using SuperHeroAPI.Services.SuperHeroService;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +12,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+//Service Injection
 builder.Services.AddScoped<ISuperHeroService, SuperHeroService>();
+//Database Injection
+builder.Services.AddDbContext<DataContext>();
 
 var app = builder.Build();
 

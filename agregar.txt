@@ -1,0 +1,14 @@
+dotnet ef
+dotnet tool install
+dotnet tool update --global dotnet-ef
+
+
+instalar desde nuget
+entityFrameworkCore
+entityFrameworkCore.Design
+entityFrameworkCore.SqlServer
+
+
+luego de configurar el dbcontext
+dotnet ef migrations add InitialCreate (asegurarse de estar en la carpeta del directorio del proyecto) (Crea todo el contexto y la carpeta Migration)
+dotnet ef database update (Crea la bd)
