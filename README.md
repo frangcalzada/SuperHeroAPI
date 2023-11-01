@@ -19,15 +19,15 @@ Install EF with this commands from package manager console:
 
 Step 2:
 From the nuget package manager install:
-   entityFrameworkCore
-   entityFrameworkCore.Design
-   entityFrameworkCore.SqlServer
+   1. entityFrameworkCore
+   2. entityFrameworkCore.Design
+   3. entityFrameworkCore.SqlServer
 
 Step 3:
 Configure DBContext from DaraContext.cs
 
 Step 4:
 After configuring the DBContext from package manager make sure you are in the project directory folder
-  dotnet ef migrations add InitialCreate
-  dotnet ef database update
+  1. dotnet ef migrations add InitialCreate
+  2. dotnet ef database update
 
