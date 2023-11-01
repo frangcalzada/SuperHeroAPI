@@ -24,7 +24,7 @@ From the nuget package manager install:
    3. entityFrameworkCore.SqlServer
 
 Step 3:
-Configure DBContext from DaraContext.cs
+Configure DBContext from DataContext.cs
 
 Step 4:
 After configuring the DBContext from package manager make sure you are in the project directory folder
