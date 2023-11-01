@@ -31,3 +31,6 @@ After configuring the DBContext from package manager make sure you are in the pr
   1. dotnet ef migrations add InitialCreate
   2. dotnet ef database update
 
+Remains to be done:
+1. Validations from the services side
+2. Configure error messages
