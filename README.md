@@ -2,7 +2,7 @@
 
 API CRUD Application with .NET 7 and Entity Framework
 
-In this project we see:
+In this project, I use:
 1. C#
 2. .NET 7
 3. Entity Framework
